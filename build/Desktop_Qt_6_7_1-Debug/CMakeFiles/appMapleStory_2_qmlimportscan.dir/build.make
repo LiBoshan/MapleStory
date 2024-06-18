@@ -76,6 +76,9 @@ CMakeFiles/appMapleStory_2_qmlimportscan: .qt/qml_imports/appMapleStory_2_build.
 .qt/qml_imports/appMapleStory_2_build.cmake: .qt/rcc/appMapleStory_2_raw_qml_0.qrc
 .qt/qml_imports/appMapleStory_2_build.cmake: /root/MapleStory_2/Choose.qml
 .qt/qml_imports/appMapleStory_2_build.cmake: /root/MapleStory_2/Components.qml
+.qt/qml_imports/appMapleStory_2_build.cmake: /root/MapleStory_2/Actions.qml
+.qt/qml_imports/appMapleStory_2_build.cmake: /root/MapleStory_2/Dialogs.qml
+.qt/qml_imports/appMapleStory_2_build.cmake: /root/MapleStory_2/Contents.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appMapleStory_2"
 	cd /root/MapleStory_2 && /opt/Qt/6.7.1/gcc_64/libexec/qmlimportscanner @/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appMapleStory_2_build.rsp
 

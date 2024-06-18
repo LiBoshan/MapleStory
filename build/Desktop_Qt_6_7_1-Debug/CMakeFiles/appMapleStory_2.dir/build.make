@@ -130,32 +130,94 @@ MapleStory_2/appMapleStory_2.qmltypes: appmaplestory_2_qmltyperegistrations.cpp
 	/usr/bin/cmake -E make_directory /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
 	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /MapleStory_2/Components.qml -I /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/qmldir --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_MapleStory_2.qrc --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory_2_raw_qml_0.qrc -o /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp /root/MapleStory_2/Components.qml
 
+.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp: /root/MapleStory_2/Actions.qml
+.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp: .qt/rcc/qmake_MapleStory_2.qrc
+.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp: .qt/rcc/appMapleStory_2_raw_qml_0.qrc
+.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp: MapleStory_2/appMapleStory_2.qmltypes
+.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp: MapleStory_2/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appMapleStory_2_Actions_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /MapleStory_2/Actions.qml -I /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/qmldir --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_MapleStory_2.qrc --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory_2_raw_qml_0.qrc -o /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp /root/MapleStory_2/Actions.qml
+
+.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp: /root/MapleStory_2/Dialogs.qml
+.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp: .qt/rcc/qmake_MapleStory_2.qrc
+.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp: .qt/rcc/appMapleStory_2_raw_qml_0.qrc
+.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp: MapleStory_2/appMapleStory_2.qmltypes
+.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp: MapleStory_2/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /MapleStory_2/Dialogs.qml -I /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/qmldir --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_MapleStory_2.qrc --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory_2_raw_qml_0.qrc -o /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp /root/MapleStory_2/Dialogs.qml
+
+.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp: /opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen
+.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp: /root/MapleStory_2/Contents.qml
+.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp: .qt/rcc/qmake_MapleStory_2.qrc
+.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp: .qt/rcc/appMapleStory_2_raw_qml_0.qrc
+.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp: MapleStory_2/appMapleStory_2.qmltypes
+.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp: MapleStory_2/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appMapleStory_2_Contents_qml.cpp"
+	/usr/bin/cmake -E make_directory /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache
+	/opt/Qt/6.7.1/gcc_64/libexec/qmlcachegen --bare --resource-path /MapleStory_2/Contents.qml -I /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug -I /opt/Qt/6.7.1/gcc_64/./qml -i /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/qmldir --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_MapleStory_2.qrc --resource /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory_2_raw_qml_0.qrc -o /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp /root/MapleStory_2/Contents.qml
+
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/Choose.qml
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/Components.qml
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/Actions.qml
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/Dialogs.qml
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/Contents.qml
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/background0.jpg
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/image42.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/image85.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/back.14.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/cake0.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/cake1.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/cake2.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/cake3.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/image44.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/num0.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/num1.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/num2.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/num3.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/changenum0.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/changenum1.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/changenum2.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/changenum3.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/portrait.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/a.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/m.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/e.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/l.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/o.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/r.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/p.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/s.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/t.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/y.gif
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/tree1.PNG
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: .qt/rcc/appMapleStory_2_raw_qml_0.qrc
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /opt/Qt/6.7.1/gcc_64/./libexec/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appMapleStory_2_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running rcc for resource appMapleStory_2_raw_qml_0"
 	/opt/Qt/6.7.1/gcc_64/libexec/rcc --output /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp --name appMapleStory_2_raw_qml_0 /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory_2_raw_qml_0.qrc --no-zstd
 
 appMapleStory_2_autogen/timestamp: /opt/Qt/6.7.1/gcc_64/./libexec/moc
 appMapleStory_2_autogen/timestamp: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC for target appMapleStory_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Automatic MOC for target appMapleStory_2"
 	/usr/bin/cmake -E cmake_autogen /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appMapleStory_2_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/appMapleStory_2_autogen/timestamp
 
 meta_types/appMapleStory_2_json_file_list.txt: /opt/Qt/6.7.1/gcc_64/./libexec/cmake_automoc_parser
 meta_types/appMapleStory_2_json_file_list.txt: appMapleStory_2_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target appMapleStory_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Running AUTOMOC file extraction for target appMapleStory_2"
 	/opt/Qt/6.7.1/gcc_64/libexec/cmake_automoc_parser --cmake-autogen-cache-file /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appMapleStory_2_autogen.dir/ParseCache.txt --cmake-autogen-info-file /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles/appMapleStory_2_autogen.dir/AutogenInfo.json --output-file-path /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/meta_types/appMapleStory_2_json_file_list.txt --timestamp-file-path /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/meta_types/appMapleStory_2_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/appMapleStory_2_autogen/include
 
 meta_types/qt6appmaplestory_2_debug_metatypes.json: meta_types/qt6appmaplestory_2_debug_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6appmaplestory_2_debug_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating meta_types/qt6appmaplestory_2_debug_metatypes.json"
 	/usr/bin/cmake -E true
 
 CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o: appMapleStory_2_autogen/mocs_compilation.cpp
 CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/appMapleStory_2_autogen/mocs_compilation.cpp
 
 CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.i: cmake_force
@@ -169,7 +231,7 @@ CMakeFiles/appMapleStory_2.dir/appMapleStory_2_autogen/mocs_compilation.cpp.s: c
 CMakeFiles/appMapleStory_2.dir/main.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/main.cpp.o: /root/MapleStory_2/main.cpp
 CMakeFiles/appMapleStory_2.dir/main.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appMapleStory_2.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appMapleStory_2.dir/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/main.cpp.o -MF CMakeFiles/appMapleStory_2.dir/main.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/main.cpp.o -c /root/MapleStory_2/main.cpp
 
 CMakeFiles/appMapleStory_2.dir/main.cpp.i: cmake_force
@@ -183,7 +245,7 @@ CMakeFiles/appMapleStory_2.dir/main.cpp.s: cmake_force
 CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o: appmaplestory_2_qmltyperegistrations.cpp
 CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o -MF CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/appmaplestory_2_qmltyperegistrations.cpp
 
 CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.i: cmake_force
@@ -197,7 +259,7 @@ CMakeFiles/appMapleStory_2.dir/appmaplestory_2_qmltyperegistrations.cpp.s: cmake
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o: .qt/rcc/qrc_qmake_MapleStory_2.cpp
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp
 
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp.i: cmake_force
@@ -211,7 +273,7 @@ CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_Ma
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o: .rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp
 
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.i: cmake_force
@@ -225,7 +287,7 @@ CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMap
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o: .rcc/qmlcache/appMapleStory_2_Choose_qml.cpp
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp
 
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.i: cmake_force
@@ -239,7 +301,7 @@ CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMap
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o: .rcc/qmlcache/appMapleStory_2_Components_qml.cpp
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp
 
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.i: cmake_force
@@ -250,10 +312,52 @@ CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMap
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.s
 
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o: .rcc/qmlcache/appMapleStory_2_Actions_qml.cpp
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp > CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.i
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.s
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o: .rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp > CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.i
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.s
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o: .rcc/qmlcache/appMapleStory_2_Contents_qml.cpp
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp > CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.i
+
+CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.s
+
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o: CMakeFiles/appMapleStory_2.dir/flags.make
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o: .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o: CMakeFiles/appMapleStory_2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o -MF CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o.d -o CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o -c /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp
 
 CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.i: cmake_force
@@ -273,6 +377,9 @@ appMapleStory_2_OBJECTS = \
 "CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o" \
 "CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o" \
 "CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o" \
+"CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o" \
+"CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o" \
+"CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o" \
 "CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o"
 
 # External object files for target appMapleStory_2
@@ -285,6 +392,9 @@ appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt
 appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp.o
 appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp.o
 appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp.o
+appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp.o
+appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp.o
+appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp.o
 appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp.o
 appMapleStory_2: CMakeFiles/appMapleStory_2.dir/build.make
 appMapleStory_2: /opt/Qt/6.7.1/gcc_64/lib/libQt6Quick.so.6.7.1
@@ -298,7 +408,7 @@ appMapleStory_2: /opt/Qt/6.7.1/gcc_64/lib/libQt6Core.so.6.7.1
 appMapleStory_2: /usr/lib/libGLX.so
 appMapleStory_2: /usr/lib/libOpenGL.so
 appMapleStory_2: CMakeFiles/appMapleStory_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable appMapleStory_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable appMapleStory_2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appMapleStory_2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -311,8 +421,11 @@ CMakeFiles/appMapleStory_2.dir/clean:
 
 CMakeFiles/appMapleStory_2.dir/depend: .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp
 CMakeFiles/appMapleStory_2.dir/depend: .qt/rcc/qrc_qmake_MapleStory_2.cpp
+CMakeFiles/appMapleStory_2.dir/depend: .rcc/qmlcache/appMapleStory_2_Actions_qml.cpp
 CMakeFiles/appMapleStory_2.dir/depend: .rcc/qmlcache/appMapleStory_2_Choose_qml.cpp
 CMakeFiles/appMapleStory_2.dir/depend: .rcc/qmlcache/appMapleStory_2_Components_qml.cpp
+CMakeFiles/appMapleStory_2.dir/depend: .rcc/qmlcache/appMapleStory_2_Contents_qml.cpp
+CMakeFiles/appMapleStory_2.dir/depend: .rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp
 CMakeFiles/appMapleStory_2.dir/depend: .rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp
 CMakeFiles/appMapleStory_2.dir/depend: MapleStory_2/appMapleStory_2.qmltypes
 CMakeFiles/appMapleStory_2.dir/depend: appMapleStory_2_autogen/timestamp

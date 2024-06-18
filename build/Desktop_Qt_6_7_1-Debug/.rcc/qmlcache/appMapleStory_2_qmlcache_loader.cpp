@@ -19,6 +19,27 @@ namespace _0x5f_MapleStory_2_Components_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _0x5f_MapleStory_2_Actions_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_MapleStory_2_Dialogs_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _0x5f_MapleStory_2_Contents_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -35,6 +56,9 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/MapleStory_2/Choose.qml"), &QmlCacheGeneratedCode::_0x5f_MapleStory_2_Choose_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/MapleStory_2/Components.qml"), &QmlCacheGeneratedCode::_0x5f_MapleStory_2_Components_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/MapleStory_2/Actions.qml"), &QmlCacheGeneratedCode::_0x5f_MapleStory_2_Actions_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/MapleStory_2/Dialogs.qml"), &QmlCacheGeneratedCode::_0x5f_MapleStory_2_Dialogs_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/MapleStory_2/Contents.qml"), &QmlCacheGeneratedCode::_0x5f_MapleStory_2_Contents_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

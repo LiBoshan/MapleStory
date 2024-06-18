@@ -72,6 +72,9 @@ include CMakeFiles/appMapleStory_2_qmllint_module.dir/progress.make
 CMakeFiles/appMapleStory_2_qmllint_module: /opt/Qt/6.7.1/gcc_64/bin/qmllint
 CMakeFiles/appMapleStory_2_qmllint_module: /root/MapleStory_2/Choose.qml
 CMakeFiles/appMapleStory_2_qmllint_module: /root/MapleStory_2/Components.qml
+CMakeFiles/appMapleStory_2_qmllint_module: /root/MapleStory_2/Actions.qml
+CMakeFiles/appMapleStory_2_qmllint_module: /root/MapleStory_2/Dialogs.qml
+CMakeFiles/appMapleStory_2_qmllint_module: /root/MapleStory_2/Contents.qml
 CMakeFiles/appMapleStory_2_qmllint_module: .rcc/qmllint/appMapleStory_2_module.rsp
 	cd /root/MapleStory_2 && /opt/Qt/6.7.1/gcc_64/bin/qmllint @/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmllint/appMapleStory_2_module.rsp
 

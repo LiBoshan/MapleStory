@@ -1210,8 +1210,11 @@
 	[
 		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp",
 		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory_2.cpp",
+		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Actions_qml.cpp",
 		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Choose_qml.cpp",
 		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Components_qml.cpp",
+		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Contents_qml.cpp",
+		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_Dialogs_qml.cpp",
 		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory_2_qmlcache_loader.cpp",
 		"/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/appmaplestory_2_qmltyperegistrations.cpp"
 	],
