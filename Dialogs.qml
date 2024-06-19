@@ -4,6 +4,9 @@ import QtQuick.Controls
 Item {
     property alias exitDialog:_exitDialog
     property alias portraitDialog:_portraitDialog
+    property alias bagDialog:_bagDialog
+    property alias attributeDialog:_attributeDialog
+    property alias shopDialog:_shopDialog
 
     /*退出游戏界面窗口*/
     Dialog{
@@ -72,5 +75,54 @@ Item {
         y: offsetY
         width: 800
         height:600
+    }
+
+    /*背包窗口*/
+    Dialog{
+        id:_bagDialog
+        property real offsetX: (choose.width - width) / 2
+        property real offsetY: (choose.height - height) / 2
+        x: offsetX
+        y: offsetY
+        width: 340
+        height:570
+        Image {
+            anchors.centerIn: parent
+            width: parent.width*1.1
+            height:parent.height*1.1
+            source: "image/bagDialog.png"
+        }
+    }
+
+    /*属性窗口*/
+    Dialog{
+        id:_attributeDialog
+        x: (choose.width - width) / 2
+        y: (choose.height - height) / 2
+        width: 478*1.4
+        height:353*1.4
+        Image {
+            source: "image/attributeDialog.png"
+            anchors.centerIn: parent
+            width: parent.width*1.1
+            height:parent.height*1.1
+        }
+    }
+
+    /*商城窗口*/
+    Dialog{
+        id:_shopDialog
+        property real offsetX: (choose.width - width) / 2
+        property real offsetY: (choose.height - height) / 2
+        x: offsetX
+        y: offsetY
+        width: 463*1.8
+        height:339*1.8
+        Image {
+            source: "image/shopDialog.png"
+            anchors.centerIn: parent
+            width: parent.width*1.1
+            height:parent.height*1.1
+        }
     }
 }

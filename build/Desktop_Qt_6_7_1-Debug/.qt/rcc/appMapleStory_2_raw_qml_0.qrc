@@ -34,6 +34,15 @@
     <file alias="image/t.gif">/root/MapleStory_2/image/t.gif</file>
     <file alias="image/y.gif">/root/MapleStory_2/image/y.gif</file>
     <file alias="image/tree1.PNG">/root/MapleStory_2/image/tree1.PNG</file>
+    <file alias="image/bagDialog.png">/root/MapleStory_2/image/bagDialog.png</file>
+    <file alias="image/bag1.png">/root/MapleStory_2/image/bag1.png</file>
+    <file alias="image/shop.png">/root/MapleStory_2/image/shop.png</file>
+    <file alias="image/attribute.png">/root/MapleStory_2/image/attribute.png</file>
+    <file alias="image/background1.png">/root/MapleStory_2/image/background1.png</file>
+    <file alias="image/released.png">/root/MapleStory_2/image/released.png</file>
+    <file alias="image/clicked.png">/root/MapleStory_2/image/clicked.png</file>
+    <file alias="image/attributeDialog.png">/root/MapleStory_2/image/attributeDialog.png</file>
+    <file alias="image/shopDialog.png">/root/MapleStory_2/image/shopDialog.png</file>
   </qresource>
 </RCC>
 

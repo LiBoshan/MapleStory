@@ -41,7 +41,13 @@ qt_add_qml_module(
   RESOURCES image/a.gif
   RESOURCES image/m.gif
   RESOURCES image/e.gif image/l.gif image/o.gif image/r.gif image/p.gif image/s.gif image/t.gif image/y.gif
-  RESOURCES image/tree1.PNG)
+  RESOURCES image/tree1.PNG
+  RESOURCES image/bagDialog.png
+  RESOURCES image/bag1.png image/shop.png image/attribute.png
+  RESOURCES image/background1.png
+  RESOURCES image/released.png image/clicked.png
+  RESOURCES image/attributeDialog.png
+  RESOURCES image/shopDialog.png)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1. If
 # you are developing for iOS or macOS you should consider setting an explicit,

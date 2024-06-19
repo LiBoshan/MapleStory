@@ -18,9 +18,10 @@ Item {
 
             Image {
                 id: background0
-                width: parent.width
-                height: parent.height
-                source: "image/background0.jpg"
+                anchors.fill: parent
+                anchors.left: parent.left
+                anchors.bottom: parent.bottom
+                source: "image/background1.png"
                 fillMode: Image.PreserveAspectCrop
             }
 
@@ -112,6 +113,7 @@ Item {
             text:"HP"
             font.bold: true
             font.pointSize: 17
+            color: "red"
             x:_portrait.width+_portrait.x+20
             y:10
         }
@@ -149,6 +151,7 @@ Item {
             text:"MP"
             font.bold: true
             font.pointSize: 16
+            color:"blue"
             x:_portrait.width+_portrait.x+20
             y:healthBar.y+healthBar.height+20
         }
@@ -186,8 +189,16 @@ Item {
             id:_bag
             x:10
             y:_portrait.y+_portrait.height+30
-            width: 60
-            height: 60
+            width: 50
+            height: 50
+            color:"transparent"
+            TapHandler{
+                onTapped: {contents.dialogs.bagDialog.open()}
+            }
+            Image {
+                anchors.fill: parent
+                source: "image/bag1.png"
+            }
         }
 
         /*属性*/
@@ -195,8 +206,16 @@ Item {
             id:_attribute
             x:10
             y:_bag.y+_bag.height+30
-            width:60
-            height:60
+            width:50
+            height:50
+            color:"transparent"
+            Image {
+                anchors.fill: parent
+                source: "image/attribute.png"
+            }
+            TapHandler{
+                onTapped: {contents.dialogs.attributeDialog.open()}
+            }
         }
 
         /*商城*/
@@ -204,8 +223,16 @@ Item {
             id:_shop
             x:10
             y:_attribute.y+_attribute.height+30
-            width:60
-            height:60
+            width:50
+            height:50
+            color:"transparent"
+            Image {
+                anchors.fill: parent
+                source: "image/shop.png"
+            }
+            TapHandler{
+                onTapped: {contents.dialogs.shopDialog.open()}
+            }
         }
 
         /*退出*/

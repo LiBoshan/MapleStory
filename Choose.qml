@@ -38,15 +38,6 @@ ApplicationWindow {
     Rectangle {
         id: _container
         z:-1
-        /*
-
-        width: 600
-        height: 750
-        radius: 50*/
-        // color: "#cfe3b3"
-        /*居中*/
-        // x: (choose.width - width) / 2
-        // y: (choose.height - height) / 2
 
         /*进行关卡图片的创建*/
         Text{
@@ -59,26 +50,7 @@ ApplicationWindow {
             y:50
             z:1
         }
-        // Image {
-        //     id:_m
-        //     x:700
-        //     y:500
-        //     source: "image/m.gif"
-        // }
-        // Image {
-        //     id:_a
-        //     x:_m.x+_m.width
-        //     y:485
-        //     z:1
-        //     source: "image/a.gif"
-        // }
-        // Image {
-        //     id:_p
-        //     x:_a.x+_a.width-15
-        //     y:475
-        //     z:1
-        //     source: "image/p.gif"
-        // }
+
         Component{
             id:delegate_guanqia
             Rectangle{
@@ -131,13 +103,7 @@ ApplicationWindow {
                     source: "image/num" + index + ".png"
                     anchors.centerIn: parent
                 }
-                // Text {
-                //     id: text_guanqia
-                //     text: index
-                //     color: "#000000"
-                //     font.pointSize: 36 // 调整文字大小
-                //     anchors.centerIn: parent
-                // }
+
                 Image {
                     id: iconImage
                     width: 75

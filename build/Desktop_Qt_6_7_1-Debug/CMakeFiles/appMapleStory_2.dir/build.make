@@ -194,6 +194,15 @@ MapleStory_2/appMapleStory_2.qmltypes: appmaplestory_2_qmltyperegistrations.cpp
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/t.gif
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/y.gif
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/tree1.PNG
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/bagDialog.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/bag1.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/shop.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/attribute.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/background1.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/released.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/clicked.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/attributeDialog.png
+.qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /root/MapleStory_2/image/shopDialog.png
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: .qt/rcc/appMapleStory_2_raw_qml_0.qrc
 .qt/rcc/qrc_appMapleStory_2_raw_qml_0.cpp: /opt/Qt/6.7.1/gcc_64/./libexec/rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Running rcc for resource appMapleStory_2_raw_qml_0"

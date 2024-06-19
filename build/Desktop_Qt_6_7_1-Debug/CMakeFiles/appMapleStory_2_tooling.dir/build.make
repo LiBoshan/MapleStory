@@ -205,14 +205,55 @@ MapleStory_2/image/tree1.PNG: /root/MapleStory_2/image/tree1.PNG
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Copying image/tree1.PNG to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/tree1.PNG"
 	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/tree1.PNG /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/tree1.PNG
 
+MapleStory_2/image/bagDialog.png: /root/MapleStory_2/image/bagDialog.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Copying image/bagDialog.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/bagDialog.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/bagDialog.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/bagDialog.png
+
+MapleStory_2/image/bag1.png: /root/MapleStory_2/image/bag1.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Copying image/bag1.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/bag1.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/bag1.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/bag1.png
+
+MapleStory_2/image/shop.png: /root/MapleStory_2/image/shop.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Copying image/shop.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/shop.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/shop.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/shop.png
+
+MapleStory_2/image/attribute.png: /root/MapleStory_2/image/attribute.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Copying image/attribute.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/attribute.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/attribute.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/attribute.png
+
+MapleStory_2/image/background1.png: /root/MapleStory_2/image/background1.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Copying image/background1.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/background1.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/background1.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/background1.png
+
+MapleStory_2/image/released.png: /root/MapleStory_2/image/released.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Copying image/released.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/released.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/released.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/released.png
+
+MapleStory_2/image/clicked.png: /root/MapleStory_2/image/clicked.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Copying image/clicked.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/clicked.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/clicked.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/clicked.png
+
+MapleStory_2/image/attributeDialog.png: /root/MapleStory_2/image/attributeDialog.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Copying image/attributeDialog.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/attributeDialog.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/attributeDialog.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/attributeDialog.png
+
+MapleStory_2/image/shopDialog.png: /root/MapleStory_2/image/shopDialog.png
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Copying image/shopDialog.png to /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/shopDialog.png"
+	cd /root/MapleStory_2 && /usr/bin/cmake -E copy /root/MapleStory_2/image/shopDialog.png /root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/image/shopDialog.png
+
 appMapleStory_2_tooling: MapleStory_2/Actions.qml
 appMapleStory_2_tooling: MapleStory_2/Choose.qml
 appMapleStory_2_tooling: MapleStory_2/Components.qml
 appMapleStory_2_tooling: MapleStory_2/Contents.qml
 appMapleStory_2_tooling: MapleStory_2/Dialogs.qml
 appMapleStory_2_tooling: MapleStory_2/image/a.gif
+appMapleStory_2_tooling: MapleStory_2/image/attribute.png
+appMapleStory_2_tooling: MapleStory_2/image/attributeDialog.png
 appMapleStory_2_tooling: MapleStory_2/image/back.14.png
 appMapleStory_2_tooling: MapleStory_2/image/background0.jpg
+appMapleStory_2_tooling: MapleStory_2/image/background1.png
+appMapleStory_2_tooling: MapleStory_2/image/bag1.png
+appMapleStory_2_tooling: MapleStory_2/image/bagDialog.png
 appMapleStory_2_tooling: MapleStory_2/image/cake0.gif
 appMapleStory_2_tooling: MapleStory_2/image/cake1.gif
 appMapleStory_2_tooling: MapleStory_2/image/cake2.gif
@@ -221,6 +262,7 @@ appMapleStory_2_tooling: MapleStory_2/image/changenum0.png
 appMapleStory_2_tooling: MapleStory_2/image/changenum1.png
 appMapleStory_2_tooling: MapleStory_2/image/changenum2.png
 appMapleStory_2_tooling: MapleStory_2/image/changenum3.png
+appMapleStory_2_tooling: MapleStory_2/image/clicked.png
 appMapleStory_2_tooling: MapleStory_2/image/e.gif
 appMapleStory_2_tooling: MapleStory_2/image/image42.png
 appMapleStory_2_tooling: MapleStory_2/image/image44.png
@@ -235,7 +277,10 @@ appMapleStory_2_tooling: MapleStory_2/image/o.gif
 appMapleStory_2_tooling: MapleStory_2/image/p.gif
 appMapleStory_2_tooling: MapleStory_2/image/portrait.png
 appMapleStory_2_tooling: MapleStory_2/image/r.gif
+appMapleStory_2_tooling: MapleStory_2/image/released.png
 appMapleStory_2_tooling: MapleStory_2/image/s.gif
+appMapleStory_2_tooling: MapleStory_2/image/shop.png
+appMapleStory_2_tooling: MapleStory_2/image/shopDialog.png
 appMapleStory_2_tooling: MapleStory_2/image/t.gif
 appMapleStory_2_tooling: MapleStory_2/image/tree1.PNG
 appMapleStory_2_tooling: MapleStory_2/image/y.gif
