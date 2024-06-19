@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/game">
+    <file alias="qmldir">/root/game/build/Desktop_Qt_6_7_1-Debug/game/qmldir</file>
+  </qresource>
+</RCC>
+

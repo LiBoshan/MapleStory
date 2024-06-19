@@ -1,0 +1,14 @@
+-rootPath
+/root/game
+-cmake-output
+-output-file
+/root/game/build/Desktop_Qt_6_7_1-Debug/.qt/qml_imports/appgame_build.cmake
+-importPath
+/root/game/build/Desktop_Qt_6_7_1-Debug/game
+-importPath
+/root/game/build/Desktop_Qt_6_7_1-Debug
+-importPath
+/opt/Qt/6.7.1/gcc_64/./qml
+-qrcFiles
+/root/game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_game.qrc
+/root/game/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appgame_raw_qml_0.qrc

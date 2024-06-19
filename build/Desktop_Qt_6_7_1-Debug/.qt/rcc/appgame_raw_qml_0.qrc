@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="/game/">
+    <file alias="Main.qml">/root/game/Main.qml</file>
+    <file alias="MyRectangle.qml">/root/game/MyRectangle.qml</file>
+    <file alias="wait.qml">/root/game/wait.qml</file>
+    <file alias="images/bj.jpg">/root/game/images/bj.jpg</file>
+    <file alias="images/hua1.png">/root/game/images/hua1.png</file>
+    <file alias="images/hua2.png">/root/game/images/hua2.png</file>
+    <file alias="images/zuo.png">/root/game/images/zuo.png</file>
+    <file alias="images/you.png">/root/game/images/you.png</file>
+    <file alias="images/duo.png">/root/game/images/duo.png</file>
+    <file alias="images/fang.png">/root/game/images/fang.png</file>
+    <file alias="images/duo.png">/root/game/images/duo.png</file>
+    <file alias="images/dt3.png">/root/game/images/dt3.png</file>
+    <file alias="images/qiu3.png">/root/game/images/qiu3.png</file>
+    <file alias="images/qu4.png">/root/game/images/qu4.png</file>
+    <file alias="images/lihua.png">/root/game/images/lihua.png</file>
+    <file alias="images/cao1.png">/root/game/images/cao1.png</file>
+    <file alias="images/cao2.png">/root/game/images/cao2.png</file>
+    <file alias="images/cao3.png">/root/game/images/cao3.png</file>
+    <file alias="images/fang.png">/root/game/images/fang.png</file>
+    <file alias="images/guan.png">/root/game/images/guan.png</file>
+    <file alias="images/shuhua.png">/root/game/images/shuhua.png</file>
+    <file alias="images/yinghuo.png">/root/game/images/yinghuo.png</file>
+    <file alias="images/quan.png">/root/game/images/quan.png</file>
+    <file alias="images/aishu.png">/root/game/images/aishu.png</file>
+    <file alias="images/dt2.png">/root/game/images/dt2.png</file>
+    <file alias="images/he.png">/root/game/images/he.png</file>
+    <file alias="images/lvteng.png">/root/game/images/lvteng.png</file>
+    <file alias="images/start1.png">/root/game/images/start1.png</file>
+  </qresource>
+</RCC>
+

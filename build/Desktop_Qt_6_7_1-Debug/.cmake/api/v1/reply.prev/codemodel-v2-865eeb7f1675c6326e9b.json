@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-46d4602999b20229e598.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "game",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-55a231016a8f9f11ca5f.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6566c7f7afc44886f923.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-7a8eeb37b4d2b311ccec.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-5db33dcc5fed6b905bd4.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame-Debug-e3bef3e810780e2ed8a0.json",
+					"name" : "appgame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_autogen-Debug-253213cabddbbaf407c9.json",
+					"name" : "appgame_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_autogen_timestamp_deps-Debug-c9f6c2570aeaa932e55e.json",
+					"name" : "appgame_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_qmlimportscan-Debug-5b8e9cef638303542b85.json",
+					"name" : "appgame_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_qmllint-Debug-93fc4c143c6a92571507.json",
+					"name" : "appgame_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_qmllint_json-Debug-dcdb07a384bfdc6f6efa.json",
+					"name" : "appgame_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_qmllint_module-Debug-ed4b5b354d655f5ecdc9.json",
+					"name" : "appgame_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_qmltyperegistration-Debug-a5e7ee8892e397d3fee0.json",
+					"name" : "appgame_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appgame_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appgame_tooling-Debug-616e84a0a9519a089df8.json",
+					"name" : "appgame_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/game/build/Desktop_Qt_6_7_1-Debug",
+		"source" : "/root/game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
