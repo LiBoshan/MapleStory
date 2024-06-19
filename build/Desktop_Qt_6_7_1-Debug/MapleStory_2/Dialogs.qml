@@ -54,12 +54,12 @@ Item {
             }
 
             onClicked: {
-                page0.visible=false
-                page1.visible=false
-                page2.visible=false
-                page3.visible=false
+                components.page0.visible=false
+                components.page1.visible=false
+                components.page2.visible=false
+                components.page3.visible=false
                 _exitDialog.visible=false
-                edgePage.visible=false
+                components.edgePage.visible=false
                 //返回关卡选择界面
                 container.visible=true
             }

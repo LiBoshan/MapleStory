@@ -38,7 +38,6 @@ ApplicationWindow {
     Rectangle {
         id: _container
         z:-1
-
         /*进行关卡图片的创建*/
         Text{
             width: 200
@@ -68,32 +67,32 @@ ApplicationWindow {
                         numImage.source="image/changenum" + index + ".png"
                         console.log("进入关卡【"+index+"】")
                         if(index==0){
-                            allComponents.page0.visible=true
-                            allComponents.page1.visible=false
-                            allComponents.page2.visible=false
-                            allComponents.page3.visible=false
+                            contents.components.page0.visible=true
+                            contents.components.page1.visible=false
+                            contents.components.page2.visible=false
+                            contents.components.page3.visible=false
                         }
                         if(index==1){
-                            allComponents.page1.visible=true
-                            allComponents.page0.visible=false
-                            allComponents.page2.visible=false
-                            allComponents.page3.visible=false
+                            contents.components.page1.visible=true
+                            contents.components.page0.visible=false
+                            contents.components.page2.visible=false
+                            contents.components.page3.visible=false
                         }
                         if(index==2){
-                            allComponents.page2.visible=true
-                            allComponents.page1.visible=false
-                            allComponents.page0.visible=false
-                            allComponents.page3.visible=false
+                            contents.components.page2.visible=true
+                            contents.components.page1.visible=false
+                            contents.components.page0.visible=false
+                            contents.components.page3.visible=false
                         }
                         if(index==3){
-                            allComponents.page3.visible=true
-                            allComponents.page1.visible=false
-                            allComponents.page2.visible=false
-                            allComponents.page0.visible=false
+                            contents.components.page3.visible=true
+                            contents.components.page1.visible=false
+                            contents.components.page2.visible=false
+                            contents.components.page0.visible=false
                         }
                         console.log("切换到页面【"+index+"】")
                         _container.visible=false
-                        allComponents.edgePage.visible=true
+                        contents.components.edgePage.visible=true
                     }
                 }
                 Image {
@@ -127,7 +126,12 @@ ApplicationWindow {
         }
 
     }
-    Components {
-            id: allComponents
-        }
+
+    Contents{
+        id:contents
+    }
+
+    // Components {
+    //         id: allComponents
+    //     }
 }

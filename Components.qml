@@ -12,21 +12,79 @@ Item {
     Page{
         id:_page0
         visible: false
+
         Rectangle{
+            id:gameScene
             width: 1200
             height: 800
 
+            property int sceneWidth:5000
+            property int scrollThreshold:960//触发滚动阈值
+            /*背景图片*/
             Image {
                 id: background0
-                anchors.fill: parent
-                anchors.left: parent.left
-                anchors.bottom: parent.bottom
+                height:800
+                width:2258
+                x:0
                 source: "image/background1.png"
-                fillMode: Image.PreserveAspectCrop
+
+                Image {
+                    id: background0B
+                    height:800
+                    width:2258
+                    x:background0.width
+                    source: "image/background1.png"
+                }
             }
 
+
+
+            /*关于背景图的滚动，应该写在角色移动函数中*/
+            Rectangle {
+                        id: player
+                        width: 50
+                        height: 50
+                        color: "red"
+                        radius: 25 // 使角色为圆形
+                        y:500
+                        x:0
+
+                        // 触发屏幕滚动
+                        onXChanged: {
+                            // 如果角色到达场景边缘的阈值
+                            if (x + width >gameScene.scrollThreshold && x + width < gameScene.sceneWidth) {
+                                // 移动场景内容（背景和角色）
+                                var scrollDistance = x + width - gameScene.scrollThreshold;
+                                background0.x -= scrollDistance;
+                                x=gameScene.width*0.8-player.width
+                                if (background0.x <= -background0.width) {
+                                                    background0.x += background0.width;
+                                                }
+                                                if (background0.x >= background0.width) {
+                                                    background0.x -= background0.width;
+                                                }
+                            }
+                        }
+                        MouseArea {
+                                    id: dragArea
+                                    anchors.fill: parent
+                                    drag.target: parent
+                                }
+                        // 使角色可以通过水平拖拽移动
+                        Drag.active: dragArea.drag.active
+                        Drag.hotSpot.x: player.width / 2
+                        Drag.hotSpot.y: player.height / 2
+                        Drag.onActiveChanged: {
+                            if (!dragArea.drag.active) {
+                                x = player.x
+                                y = player.y
+                            }
+                        }
+                }
         }
+
     }
+
     Page{
         id:_page1
         visible: false
@@ -103,7 +161,7 @@ Item {
             }
             TapHandler{
                 onTapped: {
-                    contents.dialogs.portraitDialog.open()
+                    dialogs.portraitDialog.open()
                 }
             }
         }
@@ -193,7 +251,7 @@ Item {
             height: 50
             color:"transparent"
             TapHandler{
-                onTapped: {contents.dialogs.bagDialog.open()}
+                onTapped: {dialogs.bagDialog.open()}
             }
             Image {
                 anchors.fill: parent
@@ -214,26 +272,26 @@ Item {
                 source: "image/attribute.png"
             }
             TapHandler{
-                onTapped: {contents.dialogs.attributeDialog.open()}
+                onTapped: {dialogs.attributeDialog.open()}
             }
         }
 
-        /*商城*/
-        Rectangle{
-            id:_shop
-            x:10
-            y:_attribute.y+_attribute.height+30
-            width:50
-            height:50
-            color:"transparent"
-            Image {
-                anchors.fill: parent
-                source: "image/shop.png"
-            }
-            TapHandler{
-                onTapped: {contents.dialogs.shopDialog.open()}
-            }
-        }
+        // /*商城*/
+        // Rectangle{
+        //     id:_shop
+        //     x:10
+        //     y:_attribute.y+_attribute.height+30
+        //     width:50
+        //     height:50
+        //     color:"transparent"
+        //     Image {
+        //         anchors.fill: parent
+        //         source: "image/shop.png"
+        //     }
+        //     TapHandler{
+        //         onTapped: {contents.dialogs.shopDialog.open()}
+        //     }
+        // }
 
         /*退出*/
         Button{
@@ -242,14 +300,10 @@ Item {
             text:"退出"
             x:10
             y:choose.height-10-height
-            onClicked: {contents.dialogs.exitDialog.open()}
+            onClicked: {dialogs.exitDialog.open()}
         }
     }
     Actions{
         id:actions
-    }
-
-    Contents{
-        id:contents
     }
 }
