@@ -71,7 +71,9 @@ qt_add_qml_module(
   RESOURCES
   ../click.mp3
   RESOURCES
-  ../images/ims.png)
+  ../images/ims.png
+  QML_FILES Actions.qml
+  QML_FILES Dialogs.qml)
 
 target_compile_features(appgame1 PRIVATE cxx_std_20)
 
