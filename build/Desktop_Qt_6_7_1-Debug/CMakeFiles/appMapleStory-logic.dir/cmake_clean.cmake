@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appMapleStory-logic_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_MapleStory-logic.cpp"
+  ".rcc/qmlcache/appMapleStory-logic_Role_qml.cpp"
+  ".rcc/qmlcache/appMapleStory-logic_main_qml.cpp"
+  ".rcc/qmlcache/appMapleStory-logic_qmlcache_loader.cpp"
+  "CMakeFiles/appMapleStory-logic_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appMapleStory-logic_autogen.dir/ParseCache.txt"
+  "appMapleStory-logic_autogen"
+  "CMakeFiles/appMapleStory-logic.dir/appMapleStory-logic_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/appMapleStory-logic_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/appmaplestory-logic_qmltyperegistrations.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/appmaplestory-logic_qmltyperegistrations.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory-logic_raw_qml_0.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_appMapleStory-logic_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory-logic.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qrc_qmake_MapleStory-logic.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory-logic_Role_qml.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory-logic_Role_qml.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory-logic_main_qml.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory-logic_main_qml.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory-logic_qmlcache_loader.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/build/Desktop_Qt_6_7_1-Debug/.rcc/qmlcache/appMapleStory-logic_qmlcache_loader.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/main.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/main.cpp.o.d"
+  "CMakeFiles/appMapleStory-logic.dir/player.cpp.o"
+  "CMakeFiles/appMapleStory-logic.dir/player.cpp.o.d"
+  "MapleStory-logic/appMapleStory-logic.qmltypes"
+  "appMapleStory-logic"
+  "appMapleStory-logic.pdb"
+  "appMapleStory-logic_autogen/mocs_compilation.cpp"
+  "appMapleStory-logic_autogen/timestamp"
+  "appmaplestory-logic_qmltyperegistrations.cpp"
+  "meta_types/appMapleStory-logic_json_file_list.txt"
+  "meta_types/appMapleStory-logic_json_file_list.txt.timestamp"
+  "meta_types/qt6appmaplestory-logic_debug_metatypes.json"
+  "meta_types/qt6appmaplestory-logic_debug_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appMapleStory-logic.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

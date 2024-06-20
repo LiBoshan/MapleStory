@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/MapleStory-logic/">
+    <file alias="main.qml">/root/Qt creater/MapleStory-logic/main.qml</file>
+    <file alias="Role.qml">/root/Qt creater/MapleStory-logic/Role.qml</file>
+  </qresource>
+</RCC>
+

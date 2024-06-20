@@ -1,0 +1,6 @@
+--resource
+/root/Qt creater/MapleStory-logic/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/qmake_MapleStory-logic.qrc
+--resource
+/root/Qt creater/MapleStory-logic/build/Desktop_Qt_6_7_1-Debug/.qt/rcc/appMapleStory-logic_raw_qml_0.qrc
+/MapleStory-logic/main.qml
+/MapleStory-logic/Role.qml

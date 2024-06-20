@@ -1,0 +1,5 @@
+module MapleStory-logic
+typeinfo appMapleStory-logic.qmltypes
+prefer :/MapleStory-logic/
+Role 1.0 Role.qml
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/MapleStory-logic">/root/Qt creater/MapleStory-logic/build/Desktop_Qt_6_7_1-Debug/MapleStory-logic</file>
+
+  </qresource>
+</RCC>
