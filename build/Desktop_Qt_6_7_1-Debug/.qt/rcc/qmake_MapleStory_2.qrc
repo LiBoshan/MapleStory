@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/MapleStory_2">
+    <file alias="qmldir">/root/MapleStory_2/build/Desktop_Qt_6_7_1-Debug/MapleStory_2/qmldir</file>
+  </qresource>
+</RCC>
+
