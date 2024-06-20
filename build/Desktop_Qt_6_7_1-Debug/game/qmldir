@@ -1,6 +1,0 @@
-module game
-typeinfo appgame.qmltypes
-prefer :/game/
-Main 1.0 Main.qml
-MyRectangle 1.0 MyRectangle.qml
-
